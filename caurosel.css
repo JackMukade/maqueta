@@ -1,0 +1,283 @@
+body {
+  color: #5a5a5a;
+  overflow-x:hidden;
+}
+
+.navbar-header a{
+  font-size: 2.1em;
+}
+
+.link{
+  font-size: 1.4em;
+  color: white !important;
+}
+
+span.caret { margin-left: 20px; 
+}
+
+.link:hover{
+  text-decoration: underline !important;
+
+}
+
+.carousel {
+  height: 550px;
+  margin-top: -20px;
+}
+
+
+.carousel .item {
+  height: 550px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 550px;
+}
+
+.mercado .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.mercado h2 {
+  font-weight: normal;
+}
+.mercado .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.mercado{
+    margin-top: 30px;
+}
+
+
+.titulo-market{
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+
+.color{
+  background: #3c3d41 !important;
+}
+  
+.titulo-black{
+  color: #ffff;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-left: 25px;
+}
+
+.titulo-black2{
+  color: #b2b2b2 !important;
+  
+}
+
+.lead-black{
+  color: #e5e5e5;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-left: 25px;
+}
+
+.lead-white{
+  font-size: 40px !important;
+  margin-top: 30px;
+}
+
+.titulo-white{
+  font-size: 50px;
+}
+
+.btn2{
+  margin-top: 20px;
+  background: #3c3d41 !important;
+  color: #fff !important;
+}
+
+.img2{
+  min-height: 400px;
+}
+
+
+@media screen and (max-width: 800px){
+ 
+    .carousel {
+        height: 450px;
+    }
+
+    .carousel .item {
+        height: 450px;
+    }
+    .carousel-inner > .item > img {
+        min-height: 450px;
+    } 
+
+}    
+
+@media screen and (max-width: 700px){
+    
+    .carousel {
+      height: 350px;
+    }
+   
+    .carousel .item {
+       height: 350px;
+    }
+
+    .carousel-inner > .item > img {
+      min-height: 350px;
+    } 
+   
+}   
+
+@media (min-width: 768px) {
+ 
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+ 
+}
+
+
+.footer-bs {
+  background-color: #3c3d41;
+	padding: 30px 20px;
+	color: rgba(255,255,255,1.00);
+}
+
+.footer-bs .footer-brand, 
+.footer-bs .footer-nav, 
+.footer-bs .footer-social, 
+.footer-bs .footer-ns { 
+  padding:5px 15px; 
+}
+
+.footer-bs .footer-brand p { 
+  font-size:12px; color:rgba(255,255,255,0.70); 
+}
+
+.footer-bs .footer-nav ul.pages { 
+  list-style:none; 
+}
+
+.footer-bs .footer-nav ul.pages a { 
+  color:rgba(255,255,255,1.00); 
+  font-weight:bold; 
+  text-transform:uppercase; 
+}
+
+
+.footer-bs .footer-nav ul.pages a:hover { 
+  color:rgba(255,255,255,0.80); 
+  text-decoration:none; 
+}
+
+
+.footer-bs .footer-nav h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:5px;
+}
+
+.footer-bs .footer-nav ul.list { 
+  list-style:none;
+  margin-top: 10px;
+}
+
+.footer-bs .footer-nav ul.list li { 
+ margin-left: -50px;
+ padding-bottom: 10px;
+ padding-right: 20px;
+
+}
+
+.footer-bs .footer-nav ul.list a { 
+  color:rgba(255,255,255,0.80); 
+}
+
+.footer-bs .footer-nav ul.list a:hover { 
+  color:rgba(255,255,255,1); 
+  text-decoration:underline; 
+}
+
+.footer-bs .footer-social ul { 
+  list-style:none; 
+  margin-left: -30px;
+}
+
+.footer-bs .footer-social h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.footer-bs .footer-social a { 
+  color:rgba(255,255,255,1.00);
+}
+
+.footer-bs .footer-social a:hover { 
+  color:rgba(255,255,255,1); 
+  text-decoration:underline; 
+}
+
+.footer-bs .footer-ns h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+}
+
+.footer-bs .footer-ns p { 
+  font-size:12px; 
+  color:rgba(255,255,255,0.70); 
+}
+
+
+.footer-social ul li{
+  margin-bottom: 20px;
+}
+
+
+h1{
+  margin-bottom: 100px !important;
+}
+
+.screen:hover{
+  opacity:1;
+  animation: light 1s;
+  animation-fill-mode: forwards;
+  cursor: pointer;
+}
+
+@keyframes light {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: .8;
+  }
+}
+
+.screen2:hover{
+  animation: light2 1s;
+  animation-fill-mode: forwards;
+  cursor: pointer;
+}
+
+@keyframes light2 {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: .6;
+  }
+}
